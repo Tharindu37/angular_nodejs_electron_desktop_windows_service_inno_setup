@@ -14,3 +14,4 @@ npm install --save-dev electron-builder
 npm run electron
 npm run dist
 ```
+https://coolaj86.com/articles/how-to-create-an-innosetup-installer.html 
