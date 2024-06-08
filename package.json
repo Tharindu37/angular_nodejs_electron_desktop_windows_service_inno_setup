@@ -54,9 +54,16 @@
     "mac": {
       "category": "public.app-category.developer-tools"
     },
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
     "files": [
       "**/*",
-      "dist/desktop_angular_electron/browser/**"
+      "dist/client/browser/**"
     ]
   }
 }
